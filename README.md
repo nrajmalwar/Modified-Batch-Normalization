@@ -1,5 +1,8 @@
 # Modified-Batch-Normalization
 
+# Objective
+Use strides in the input while calculating mean and variance and DepthwiseConv2D with kernel size 1 in the output to replace scale and shift parameters to decrease computation time.
+
 OBN- Original Batch Normalization, MBN- Modified Batch Normalization
 ## Stride and Depthwise Conv Study
     1. We ran all the models with OBN and MBN
